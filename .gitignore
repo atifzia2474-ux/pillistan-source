@@ -1,0 +1,67 @@
+﻿# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# All databases and database sidecar files
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+
+# Backup folders and backup files
+*backup*/
+*_backup*/
+backups/
+backup/
+*.bak
+*.backup*
+*.before-*
+
+# Test and temporary folders
+*_test*/
+_dev*/
+_returns_package/
+temp/
+tmp/
+
+# Archives and generated reports
+*.zip
+*.pdf
+*.log
+*.tmp
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Historical source backup files
+*backup*.py
+*backup*.txt
+*.backup_*
+*.bak*
+
+# Old upgrade and patch packages (root application files are authoritative)
+Pillistan_Finance_Integration_Upgrade_v1/
+Pillistan_Finance_Report_UI_Update/
+finance_upgrade/
+pillistan_finance_working_patch/
+
+# Temporary inspection documents
+finance_implementation_inspection.txt
